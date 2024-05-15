@@ -11,7 +11,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -31,7 +31,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -71,7 +71,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">&euro; 39,99</p>
-                <a href="product.php" class="btn btn-primary">Go somewhere</a>
+                <a href="product.php" class="btn btn-primary">Order</a>
             </div>
         </div>
     </div>

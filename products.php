@@ -9,7 +9,7 @@
 
 <div class="row">
     <div class="col-12">
-        <h2 class="text-center">all products</h2>
+        <h2 class="text-center">Shopee products</h2>
     </div>
     
     <?php 
@@ -22,7 +22,7 @@
 
             <div class="card-body">
                 <h5 class="card-title"><?php echo $row['titel']; ?></h5>
-                <p class="card-text">&euro; <?php echo $row['prijs']; ?></p> <!-- Displaying price from the 'prijs' column -->
+                <p class="card-text">&euro; <?php echo $row['prijs']; ?></p> 
                 <a href="product.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">order</a>
             </div>
         </div>

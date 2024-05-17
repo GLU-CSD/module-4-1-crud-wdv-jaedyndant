@@ -1,6 +1,7 @@
 <?php
 include('core/header.php');
 ?>
+
 <div class="row d-flex justify-content-center">
     <div class="col-md-10">
         <div class="card">
@@ -8,24 +9,36 @@ include('core/header.php');
                 <div class="col-md-6">
                     <div class="images p-3">
                         <div class="text-center p-4">
-                            <img id="main-image" src="https://placehold.co/700x400.png" width="250" />
+                            <?php
+                            $id = $_GET['id'];
+                            $sql = "SELECT afbeelding FROM products WHERE id = '$id'";
+                            $result = mysqli_query($con, $sql);
+                            $row = mysqli_fetch_assoc($result);
+                            ?>
+                            <img id="main-image" src="./assets/img/<?php echo $row['afbeelding']; ?>" width="250" />
                         </div>
-                        <div class="thumbnail text-center">
+                        <!-- <div class="thumbnail text-center">
                             <img src="https://placehold.co/70x40.png" width="70">
                             <img src="https://placehold.co/70x40.png" width="70">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="product p-4">
                         
-                        <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Orianz</span>
-                            <h5 class="text-uppercase">Men's slim fit t-shirt</h5>
+                        <div class="mt-4 mb-3"> 
+                            <?php
+                            $sql = "SELECT titel, beschrijving, prijs FROM products WHERE id = '$id'";
+                            $result = mysqli_query($con, $sql);
+                            $row = mysqli_fetch_assoc($result);
+                            ?>
+                            <span class="text-uppercase text-muted brand">Orianz</span>
+                            <h5 class="text-uppercase"><?php echo $row['titel']; ?></h5>
                             <div class="price d-flex flex-row align-items-center">
-                                <span class="act-price">$20</span>
+                                <span class="act-price">&euro; <?php echo $row['prijs']; ?></span>
                             </div>
                         </div>
-                        <p class="about">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
+                        <p class="about"><?php echo $row['beschrijving']; ?></p>
                         <div class="sizes mt-5">
                             <h6 class="text-uppercase">Size</h6>
                             <label class="radio"> 
@@ -54,6 +67,7 @@ include('core/header.php');
         </div>
     </div>
 </div>
+
 <?php
 include('core/footer.php');
 ?>
